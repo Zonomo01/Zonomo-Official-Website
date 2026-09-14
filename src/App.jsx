@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Lenis from 'lenis';
 import LandingPage from './pages/LandingPage';
 import FoundersPage from './pages/FoundersPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about-founders" element={<FoundersPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );

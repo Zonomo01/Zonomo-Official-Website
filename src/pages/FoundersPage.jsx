@@ -3,6 +3,9 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import './FoundersPage.css';
 
+import shantanuImg from '../assets/images/shantunu.jpeg';
+import sparshImg from '../assets/images/Sprash.jpeg';
+
 const FoundersPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,16 +24,16 @@ const FoundersPage = () => {
           <div className="founder-card">
             <div className="founder-image-wrapper">
               <img 
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=800&q=80" 
-                alt="Founder 1" 
+                src={shantanuImg} 
+                alt="Shantanu Sharma" 
                 className="founder-img" 
               />
             </div>
             <div className="founder-info">
-              <h2 className="founder-name">JOHN DOE</h2>
+              <h2 className="founder-name">SHANTANU SHARMA</h2>
               <h3 className="founder-role">CO-FOUNDER & CEO</h3>
               <p className="founder-bio">
-                John brings over a decade of experience in building high-growth consumer technology companies. He started ZONOMO with a simple mission: to organize the highly fragmented home services market in India and deliver unparalleled quality and trust to everyday consumers.
+                Shantanu brings deep expertise and vision to Zonomo. He started the company with a simple mission: to organize the highly fragmented home and healthcare services market in India and deliver unparalleled quality, reliability, and trust to everyday consumers through a tech-driven platform.
               </p>
             </div>
           </div>
@@ -38,16 +41,16 @@ const FoundersPage = () => {
           <div className="founder-card">
             <div className="founder-image-wrapper">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80" 
-                alt="Founder 2" 
+                src={sparshImg} 
+                alt="Sparsh Saria" 
                 className="founder-img" 
               />
             </div>
             <div className="founder-info">
-              <h2 className="founder-name">JANE SMITH</h2>
+              <h2 className="founder-name">SPARSH SARIA</h2>
               <h3 className="founder-role">CO-FOUNDER & COO</h3>
               <p className="founder-bio">
-                With a background in operations and logistics at scale, Jane is the architect behind ZONOMO's lightning-fast service delivery and stringent professional verification processes. She ensures that every service booked is executed flawlessly.
+                With a robust background in operations and logistics at scale, Sparsh is the architect behind Zonomo's lightning-fast service delivery and stringent professional verification processes. He ensures that every service booked is executed flawlessly and meets the highest standards.
               </p>
             </div>
           </div>
