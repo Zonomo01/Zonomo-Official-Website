@@ -25,21 +25,21 @@ const Footer = () => {
           <a href="/#work" className="footer-link">Book a Service</a>
           <a href="#" className="footer-link">ZONOMO Safety</a>
           <a href="#" className="footer-link">Customer Support</a>
-          <a href="#" className="footer-link">FAQs</a>
+          <Link to="/faq" className="footer-link">FAQs</Link>
         </div>
 
         <div className="footer-col">
           <h4 className="footer-col-title">For Professionals</h4>
-          <a href="#" className="footer-link">Partner With Us</a>
-          <a href="#" className="footer-link">Professional Guidelines</a>
-          <a href="#" className="footer-link">Training Center</a>
+          <Link to="/partner-with-us" className="footer-link">Partner With Us</Link>
+          <Link to="/professional-guidelines" className="footer-link">Professional Guidelines</Link>
+          <Link to="/training-center" className="footer-link">Training Center</Link>
         </div>
 
         <div className="footer-col">
           <h4 className="footer-col-title">Learn More</h4>
-          <a href="#" className="footer-link">Privacy Policy</a>
-          <a href="#" className="footer-link">Terms of Service</a>
-          <a href="#" className="footer-link">Trust & Safety</a>
+          <Link to="/privacy-policy" className="footer-link">Privacy Policy</Link>
+          <Link to="/terms-of-service" className="footer-link">Terms of Service</Link>
+          <Link to="/trust-and-safety" className="footer-link">Trust & Safety</Link>
         </div>
 
         <div className="footer-col footer-col-social">
