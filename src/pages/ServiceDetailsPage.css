@@ -1,0 +1,266 @@
+.service-details-page {
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+.service-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 5vw 60px; /* Account for fixed navigation */
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.breadcrumbs a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumbs a:hover {
+  color: #111;
+}
+
+.breadcrumbs span {
+  color: #111;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.service-hero {
+  display: flex;
+  align-items: center;
+  gap: 6vw;
+  margin-bottom: 5rem;
+}
+
+.service-hero-content {
+  flex: 1;
+}
+
+.service-title-large {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.service-description {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 90%;
+}
+
+/* Actions */
+.service-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.store-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.store-btn:hover {
+  transform: scale(1.05);
+}
+
+.store-btn-icon {
+  font-size: 1.8rem;
+}
+
+.store-btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.store-btn-text span {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.store-btn-text strong {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.all-services-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.all-services-btn:hover {
+  border-color: #111;
+  background-color: #f9f9f9;
+}
+
+/* Hero Image Wrapper */
+.service-hero-image-wrapper {
+  flex: 1;
+  background: #f4f6fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  aspect-ratio: 1;
+}
+
+.service-hero-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Details Section */
+.service-details-content {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 4rem;
+  display: flex;
+  gap: 6vw;
+}
+
+.details-column {
+  flex: 1;
+}
+
+.details-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.icon-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #00b37e;
+  color: white;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.icon-cross {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #ffeaea;
+  color: #ff4d4f;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.list-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 8px; /* Align with first line of text */
+  flex-shrink: 0;
+}
+
+.check-dot {
+  background-color: #00b37e;
+}
+
+.cross-dot {
+  background-color: #ff4d4f;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .service-hero {
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .service-hero-image-wrapper {
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .service-details-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .app-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .store-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

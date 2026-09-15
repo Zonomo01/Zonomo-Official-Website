@@ -4,12 +4,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Play } from 'lucide-react';
 import './Hero.css';
 
-import vid1 from '../assets/videos/1.mp4';
-import vid2 from '../assets/videos/2.mp4';
-import vid3 from '../assets/videos/3.mp4';
-import vid4 from '../assets/videos/4.mp4';
+import zonomoVideo from '../assets/videos/zonomomp4.mp4';
 
-const videos = [vid1, vid2, vid3, vid4];
+const videos = [zonomoVideo];
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -11,6 +11,7 @@ import PartnerWithUsPage from './pages/PartnerWithUsPage';
 import ProfessionalGuidelinesPage from './pages/ProfessionalGuidelinesPage';
 import TrainingCenterPage from './pages/TrainingCenterPage';
 import FAQPage from './pages/FAQPage';
+import ServiceDetailsPage from './pages/ServiceDetailsPage';
 
 function App() {
   useEffect(() => {
@@ -51,6 +52,7 @@ function App() {
         <Route path="/professional-guidelines" element={<ProfessionalGuidelinesPage />} />
         <Route path="/training-center" element={<TrainingCenterPage />} />
         <Route path="/faq" element={<FAQPage />} />
+        <Route path="/service/:slug" element={<ServiceDetailsPage />} />
       </Routes>
     </Router>
   );

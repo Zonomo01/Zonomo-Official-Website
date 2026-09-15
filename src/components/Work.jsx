@@ -1,29 +1,16 @@
 import React, { useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { servicesData as services } from '../data/servicesData';
 import './Work.css';
 
-import imgRepair from '../assets/images/zonomo_repair.jpg';
-import imgCleaning from '../assets/images/zonomo_cleaning.jpg';
-import imgBeauty from '../assets/images/zonomo_beauty.jpg';
-import imgCare from '../assets/images/zonomo_care.jpg';
-import imgPet from '../assets/images/zonomo_pet.jpg';
-import imgMoving from '../assets/images/zonomo_moving.jpg';
-
 gsap.registerPlugin(ScrollTrigger);
-
-const services = [
-  { id: '01', title: 'Home Repair', category: 'Maintenance', img: imgRepair, sub: ['Electrician', 'Plumber'] },
-  { id: '02', title: 'Cleaning', category: 'Deep Clean', img: imgCleaning, sub: ['Home Cleaning', 'Bathroom Cleaning'] },
-  { id: '03', title: 'Beauty & Wellness', category: 'At Home', img: imgBeauty, sub: ['Salon at Home', 'Physiotherapy'] },
-  { id: '04', title: 'Care Services', category: 'Professional', img: imgCare, sub: ['Babysitter', 'Elder Care'] },
-  { id: '05', title: 'Pet Care', category: 'Grooming', img: imgPet, sub: ['Dog Walking', 'Pet Grooming'] },
-  { id: '06', title: 'Moving & Logistics', category: 'Packers', img: imgMoving, sub: ['Packers & Movers'] },
-];
 
 const Work = () => {
   const containerRef = useRef(null);
   const itemsRef = useRef([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -31,15 +18,15 @@ const Work = () => {
         if (item) {
           gsap.fromTo(
             item,
-            { y: 50, opacity: 0 },
+            { y: 30, opacity: 0 },
             {
               y: 0,
               opacity: 1,
-              duration: 1,
+              duration: 0.8,
               ease: "power3.out",
               scrollTrigger: {
                 trigger: item,
-                start: "top 85%",
+                start: "top 90%",
               }
             }
           );
@@ -50,34 +37,35 @@ const Work = () => {
     return () => ctx.revert();
   }, []);
 
+  const handleServiceClick = (service) => {
+    navigate(`/service/${service.slug}`);
+  };
+
   return (
-    <section className="work-section" id="work" ref={containerRef}>
-      <div className="work-header">
-        <h2 className="section-title">Services</h2>
-        <p className="work-desc">
-          Verified professionals. Exceptional service. We connect you with experts to handle your everyday needs with precision and care.
+    <section className="services-section" id="services" ref={containerRef}>
+      <div className="services-header">
+        <span className="services-eyebrow">OUR SERVICES</span>
+        <h2 className="services-title">Book trusted house<br/>help.</h2>
+        <p className="services-desc">
+          From hourly bookings to express cleans to daily upkeep, Zonomo's got you<br/>
+          covered. Verified professionals, transparent pricing.
         </p>
       </div>
 
-      <div className="work-list">
+      <div className="services-grid">
         {services.map((service, index) => (
           <div 
-            className="work-item" 
+            className="service-card" 
             key={service.id}
             ref={(el) => (itemsRef.current[index] = el)}
+            onClick={() => handleServiceClick(service)}
           >
-            <div className="work-item-index">{service.id}</div>
-            <div className="work-item-content">
-              <div className="work-item-services">
-                {service.sub.map((s, i) => <div key={i}>{s}</div>)}
-              </div>
-              <div className="work-item-title-wrapper">
-                <h3 className="work-item-title">{service.title}</h3>
-                <span className="work-item-category">{service.category}</span>
-              </div>
+            <div className="service-card-image-wrapper">
+              <img src={service.img} alt={service.title} className="service-card-image" />
             </div>
-            <div className="work-item-image-wrapper">
-              <img src={service.img} alt={service.title} className="work-item-image" />
+            <div className="service-card-footer">
+              <h3 className="service-card-title">{service.title}</h3>
+              <div className="service-card-arrow">➔</div>
             </div>
           </div>
         ))}
