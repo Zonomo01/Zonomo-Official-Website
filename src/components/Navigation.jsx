@@ -13,7 +13,7 @@ const Navigation = () => {
         </div>
         <div className="nav-desc">DIGITAL STUDIO</div>
         <div className="nav-links">
-          <a href="/#work" className="nav-link">SERVICES</a>
+          <a href="/#services" className="nav-link">SERVICES</a>
           <a href="/#platform" className="nav-link">PLATFORM</a>
           <Link to="/about-founders" className="nav-link">ABOUT FOUNDERS</Link>
           <Link to="/contact" className="nav-link">CONTACT</Link>

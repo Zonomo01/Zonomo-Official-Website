@@ -47,7 +47,7 @@ const Scene = () => {
       
       <Blob />
       
-      <Environment preset="city" />
+      <Environment preset="apartment" />
     </Canvas>
   );
 };

@@ -74,6 +74,10 @@ const Footer = () => {
         <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners.</p>
         <p>2008-2026 © ZONOMO™ Ltd. All rights reserved.</p>
       </div>
+
+      <div className="footer-watermark">
+        <h1>ZONOMO</h1>
+      </div>
     </footer>
   );
 };
