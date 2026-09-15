@@ -45,9 +45,9 @@ const Footer = () => {
         <div className="footer-col footer-col-social">
           <h4 className="footer-col-title">Social Links</h4>
           <div className="footer-social-icons">
-            <a href="https://www.linkedin.com/company/zonomo/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={16} /></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={16} /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaXTwitter size={16} /></a>
+            <a href="https://www.linkedin.com/company/zonomohaha/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={16} /></a>
+            <a href="https://www.instagram.com/zonomo.in/" target="_blank" rel="noopener noreferrer"><FaInstagram size={16} /></a>
+            <a href="https://x.com/zonomo_in" target="_blank" rel="noopener noreferrer"><FaXTwitter size={16} /></a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF size={16} /></a>
           </div>
 

@@ -19,8 +19,8 @@ const Navigation = () => {
           <Link to="/contact" className="nav-link">CONTACT</Link>
         </div>
         <div className="nav-social">
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="nav-link">TWITTER</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="nav-link">INSTAGRAM</a>
+          <a href="https://x.com/zonomo_in" target="_blank" rel="noopener noreferrer" className="nav-link">TWITTER</a>
+          <a href="https://www.instagram.com/zonomo.in/" target="_blank" rel="noopener noreferrer" className="nav-link">INSTAGRAM</a>
         </div>
         <div className="nav-location">DELHI NCR</div>
       </nav>
