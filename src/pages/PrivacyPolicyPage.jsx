@@ -14,134 +14,162 @@ const PrivacyPolicyPage = () => {
       
       <div className="policy-hero">
         <h1>Privacy Policy</h1>
-        <p className="policy-meta">Effective as of September 2026</p>
+        <p className="policy-meta">Zonomo Technologies Private Limited · Version 2.0</p>
       </div>
 
       <div className="policy-container">
         <div className="policy-card">
           <div className="policy-content">
             <p className="policy-intro">
-              Zonomo Technologies Private Limited ("Zonomo", "Company", "we", "us", or "our") operates a technology-enabled marketplace that connects customers with independent service professionals. This Privacy Policy explains how Zonomo collects, uses, stores, processes, shares and protects personal information when you use our website, application, platform or services.
+              Zonomo Technologies Private Limited ("Zonomo", "we", "us", "our") operates a technology-enabled marketplace through which customers can discover, compare, communicate with and request services from independent professionals. This Privacy Policy explains how Zonomo collects, uses, stores, shares, protects and deletes personal data in connection with its website, mobile applications, customer services, professional portal and related systems.
             </p>
 
             <div className="policy-section">
-              <h2>1.1 Information We Collect</h2>
-              
-              <h3>Customer Information</h3>
+              <h2>1.2 Information Collected</h2>
               <ul>
-                <li>Name</li>
-                <li>Mobile number</li>
-                <li>Email address</li>
-                <li>Account/login information</li>
-                <li>Service address</li>
-                <li>Location information where necessary for providing a service</li>
-                <li>Booking history</li>
-                <li>Service preferences</li>
-                <li>Payment and transaction information</li>
-                <li>Ratings and reviews</li>
-                <li>Communications with Zonomo or professionals</li>
-                <li>Customer support records</li>
-              </ul>
-
-              <h3>Professional Information</h3>
-              <ul>
-                <li>Name, photograph, mobile number and email address</li>
-                <li>Address and verification information</li>
-                <li>Professional qualifications, licences/certifications and work experience</li>
-                <li>Service categories, service area and availability</li>
-                <li>Bank/payment information</li>
-                <li>Ratings and reviews</li>
-                <li>Background-verification information where applicable</li>
-              </ul>
-
-              <h3>Healthcare Information</h3>
-              <p>
-                For healthcare-related services, customers may voluntarily provide information necessary for arranging or delivering the requested service, including medical or care requirements, patient information and care instructions. Zonomo will seek to limit collection of such information to what is reasonably necessary for the requested service. Zonomo does not provide medical diagnosis or treatment merely by operating its marketplace. Healthcare professionals remain responsible for professional medical decisions, advice and treatment within the scope of their qualifications and applicable law.
-              </p>
-            </div>
-
-            <div className="policy-section">
-              <h2>1.2 How We Use Information</h2>
-              <ul>
-                <li>Create and maintain accounts</li>
-                <li>Process service requests and bookings</li>
-                <li>Match customers with professionals</li>
-                <li>Facilitate communication</li>
-                <li>Verify professionals</li>
-                <li>Process payments</li>
-                <li>Provide customer support and handle complaints</li>
-                <li>Improve platform functionality</li>
-                <li>Prevent fraud, misuse and unsafe activity</li>
-                <li>Maintain platform security</li>
-                <li>Send service-related communications</li>
-                <li>Send permitted marketing communications</li>
-                <li>Analyse platform performance</li>
-                <li>Comply with legal and regulatory obligations</li>
+                <li>
+                  <strong>Customer account:</strong> name, mobile, email, authentication information, profile photograph and preferences.
+                </li>
+                <li>
+                  <strong>Service/booking:</strong> requested service, category, address, appointment date/time, instructions, history, cancellations and transaction references.
+                </li>
+                <li>
+                  <strong>Professional:</strong> identity/contact information, photograph, service categories, area, availability, qualifications, licences, certifications, experience and verification results.
+                </li>
+                <li>
+                  <strong>Location:</strong> approximate or precise location only where reasonably necessary for discovery, matching, navigation or service delivery.
+                </li>
+                <li>
+                  <strong>Payment:</strong> transaction reference, amount, status and payment method; full card credentials may be handled by payment processors.
+                </li>
+                <li>
+                  <strong>Device:</strong> device type, operating system, app version, IP address, crash/diagnostic/security information and permitted identifiers.
+                </li>
+                <li>
+                  <strong>Camera/photos:</strong> where a feature requires a profile image, verification document, service evidence or other user-initiated image.
+                </li>
+                <li>
+                  <strong>Microphone/voice:</strong> only where a voice-enabled feature is actively used and permission is granted.
+                </li>
+                <li>
+                  <strong>Healthcare/care:</strong> information voluntarily supplied for nursing, physiotherapy, elderly care, post-hospitalisation care or other health/care services, limited to what is reasonably necessary.
+                </li>
               </ul>
             </div>
 
             <div className="policy-section">
-              <h2>1.3 AI and Automated Matching</h2>
+              <h2>1.3 Why Zonomo Uses Data</h2>
+              <ul>
+                <li>Account creation, authentication and security.</li>
+                <li>Finding and matching customers with relevant professionals.</li>
+                <li>Facilitating bookings, scheduling and service delivery.</li>
+                <li>Sharing only booking information reasonably necessary with the selected professional.</li>
+                <li>Processing payments and maintaining transaction records.</li>
+                <li>Professional verification and quality/safety controls.</li>
+                <li>Customer support, complaints, refunds and dispute handling.</li>
+                <li>Fraud, abuse, spam and security prevention.</li>
+                <li>Platform analytics, reliability, diagnostics and improvement.</li>
+                <li>Service notifications, appointment reminders and security alerts.</li>
+                <li>Marketing communications where legally permitted and appropriately consented to.</li>
+                <li>Compliance with applicable laws, regulations, court orders and lawful requests.</li>
+              </ul>
+            </div>
+
+            <div className="policy-section">
+              <h2>1.4 AI and Automated Matching</h2>
               <p>
-                Zonomo may use automated systems or AI-assisted tools to help match customers with professionals, recommend services, improve scheduling, detect suspicious activity and improve customer experience. Automated recommendations do not constitute a guarantee that a professional is suitable for a particular service.
+                Zonomo may use rules-based and AI-assisted systems to match service requests with professionals based on service category, location, availability, preferences, ratings, experience and other permitted factors. Automated recommendations are assistance tools and do not guarantee competence, suitability, future conduct, medical outcome or service quality.
+              </p>
+              <p>
+                For healthcare-related services, automated matching must not be presented as medical diagnosis or clinical decision-making. Clinical decisions remain the responsibility of appropriately qualified healthcare professionals.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.4 Sharing of Information</h2>
+              <h2>1.5 Sharing</h2>
               <p>
-                Information may be shared with relevant service professionals, customers where necessary to facilitate a booking, payment processors, technology/cloud providers, verification providers, customer support providers, analytics/security providers, government authorities where legally required, and professional advisers where necessary. Zonomo will not sell personal information as a commercial product.
+                When a customer requests a service, Zonomo may provide the selected professional with information reasonably necessary to fulfil that booking, such as name, service location, appointment information and relevant instructions. Sensitive information should be minimised.
+              </p>
+              <p>
+                Zonomo may use third-party providers for payment processing, cloud hosting, authentication, communications, maps/location, analytics, crash reporting, customer support, identity verification, background verification and security. Access should be limited to legitimate purposes and protected by appropriate contractual and technical controls.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.5 Data Security</h2>
+              <h2>1.6 Health and Medical Data</h2>
+              <ul>
+                <li>No sale of health profiles as a standalone commercial product.</li>
+                <li>No unrelated health-data advertising or marketing.</li>
+                <li>No unnecessary disclosure of patient information.</li>
+                <li>Role-based access to sensitive information.</li>
+                <li>Healthcare professionals remain responsible for clinical decisions and professional obligations.</li>
+                <li>Emergency medical care should be sought from appropriate emergency services.</li>
+              </ul>
+            </div>
+
+            <div className="policy-section">
+              <h2>1.7 Permissions</h2>
               <p>
-                Zonomo uses reasonable technical and organisational measures designed to protect personal information from unauthorised access, loss, misuse, alteration, disclosure or destruction. No internet-based system can be guaranteed to be completely secure.
+                The app should give a clear, feature-specific explanation before requesting location, camera, microphone, photographs or other sensitive permissions. Users may refuse or revoke permissions, although some functionality may then be unavailable.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.6 Data Retention</h2>
+              <h2>1.8 Security</h2>
+              <ul>
+                <li>HTTPS/TLS for network communications.</li>
+                <li>Encryption of sensitive data at rest where appropriate.</li>
+                <li>Role-based access control.</li>
+                <li>Strong authentication and secure token handling.</li>
+                <li>Restricted access to identity, qualification and health documents.</li>
+                <li>Security logging and monitoring.</li>
+                <li>Secure backup and recovery procedures.</li>
+                <li>Incident-response and breach-management procedures.</li>
+                <li>No private API keys or credentials exposed in client applications.</li>
+              </ul>
+            </div>
+
+            <div className="policy-section">
+              <h2>1.9 Retention</h2>
               <p>
-                Zonomo retains personal information only for as long as reasonably necessary for providing services, maintaining accounts, resolving disputes, preventing fraud, meeting contractual obligations and meeting legal, tax, accounting and regulatory requirements.
+                Zonomo retains information only as reasonably necessary for service delivery, security, fraud prevention, accounting, tax, dispute resolution and legal/regulatory obligations. Lawful retention exceptions should be documented and disclosed where required.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.7 Your Rights</h2>
+              <h2>1.10 Account and Data Deletion</h2>
               <p>
-                Subject to applicable law, users may have rights concerning their personal data, including rights relating to access, correction, updating information, withdrawal of consent where applicable, deletion/erasure where applicable and grievance redressal.
+                Users must be able to initiate account deletion through a readily discoverable in-app path such as Profile → Settings → Account → Delete Account. Zonomo should also maintain a public web deletion page such as https://www.zonomo.in/delete-account.
+              </p>
+              <p>
+                Deletion should be real deletion, not merely freezing or deactivating the account. Personal data should be deleted or anonymised unless retention is necessary for security, fraud prevention, legal compliance, accounting, dispute resolution or another lawful exception. The public policy should explain retained categories and reasons.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.8 Children's Privacy</h2>
+              <h2>1.11 Children and Minors</h2>
               <p>
-                Zonomo is not intended to be independently used by children where applicable law requires parental or guardian involvement. Where services concern minors, booking and information-sharing should be undertaken by a parent or lawful guardian where required.
+                Zonomo should not knowingly permit independent child account creation where prohibited by law. Services involving minors should be arranged or managed by a parent, guardian or authorised adult where required.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.9 Cookies</h2>
+              <h2>1.12 Reviews, Chat and User Content</h2>
               <p>
-                Zonomo may use cookies and similar technologies for authentication, security, preferences, analytics, platform functionality, performance and permitted marketing. Users may manage cookie preferences through available browser or platform settings.
+                Zonomo may allow reviews, ratings, photographs, messages and other user-generated content. Such content is subject to moderation, reporting and safety rules. The app should provide reporting and, where applicable, blocking mechanisms.
               </p>
             </div>
 
             <div className="policy-section">
-              <h2>1.10 Policy Changes</h2>
+              <h2>1.13 Rights and Contact</h2>
               <p>
-                Zonomo may update this Privacy Policy periodically. Material changes may be communicated through the platform or other appropriate means.
+                Subject to applicable law, users may exercise available rights relating to correction, updating, deletion/erasure, consent withdrawal and grievance redressal.
               </p>
-            </div>
-
-            <div className="policy-section">
-              <h2>1.11 Contact</h2>
               <p>
-                Zonomo Technologies Private Limited Privacy<br />
-                Email: privacy@zonomo.in<br />
-                Address: [Registered Office Address]
+                <strong>Privacy / Grievance Officer:</strong> Shantanu Sharma<br />
+                <strong>Designation:</strong> Founder &amp; Chief Executive Officer / Grievance Officer<br />
+                <strong>Email:</strong> grievance@zonomo.in<br />
+                <strong>Phone:</strong> 9217554080
               </p>
             </div>
           </div>
