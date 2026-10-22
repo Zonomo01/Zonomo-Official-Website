@@ -40,6 +40,7 @@ const Footer = () => {
           <Link to="/privacy-policy" className="footer-link">Privacy Policy</Link>
           <Link to="/terms-of-service" className="footer-link">Terms of Service</Link>
           <Link to="/trust-and-safety" className="footer-link">Trust & Safety</Link>
+          <Link to="/delete-account" className="footer-link">Delete Account</Link>
         </div>
 
         <div className="footer-col footer-col-social">

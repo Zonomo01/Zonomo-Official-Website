@@ -12,6 +12,7 @@ import ProfessionalGuidelinesPage from './pages/ProfessionalGuidelinesPage';
 import TrainingCenterPage from './pages/TrainingCenterPage';
 import FAQPage from './pages/FAQPage';
 import ServiceDetailsPage from './pages/ServiceDetailsPage';
+import DeleteAccountPage from './pages/DeleteAccountPage';
 
 function App() {
   useEffect(() => {
@@ -48,6 +49,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/terms-of-service" element={<TermsOfServicePage />} />
         <Route path="/trust-and-safety" element={<TrustSafetyPage />} />
+        <Route path="/delete-account" element={<DeleteAccountPage />} />
         <Route path="/partner-with-us" element={<PartnerWithUsPage />} />
         <Route path="/professional-guidelines" element={<ProfessionalGuidelinesPage />} />
         <Route path="/training-center" element={<TrainingCenterPage />} />

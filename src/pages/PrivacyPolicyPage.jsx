@@ -139,7 +139,8 @@ const PrivacyPolicyPage = () => {
             <div className="policy-section">
               <h2>1.10 Account and Data Deletion</h2>
               <p>
-                Users must be able to initiate account deletion through a readily discoverable in-app path such as Profile → Settings → Account → Delete Account. Zonomo should also maintain a public web deletion page such as https://www.zonomo.in/delete-account.
+                Users can initiate account deletion through a readily discoverable in-app path such as Profile → Delete Account. Zonomo also maintains a public web deletion page at{' '}
+                <a href="/delete-account">zonomo.in/delete-account</a>.
               </p>
               <p>
                 Deletion should be real deletion, not merely freezing or deactivating the account. Personal data should be deleted or anonymised unless retention is necessary for security, fraud prevention, legal compliance, accounting, dispute resolution or another lawful exception. The public policy should explain retained categories and reasons.
